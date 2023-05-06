@@ -2,5 +2,6 @@
 
 public abstract class Gene<T> : ScriptableObject
 {
-    public Trait<T> Trait;
+    public Trait<T> Dominant;
+    public Trait<T> Recessive;
 }
