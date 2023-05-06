@@ -1,4 +1,4 @@
 ﻿using UnityEngine;
 
-[CreateAssetMenu(menuName = "Genes/Int")]
+[CreateAssetMenu(menuName = "Genes/Float")]
 public class FloatGene : Gene<float>{}
