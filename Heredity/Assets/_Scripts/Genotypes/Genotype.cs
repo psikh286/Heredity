@@ -6,6 +6,7 @@ using UnityEngine;
 public abstract class Genotype<T> : MonoBehaviour
 {
     private readonly List<Gene<T>> _genes = new();
+    public List<Gene<T>> Genes => _genes;
 
     public void Initialize(List<Gene<T>> a, List<Gene<T>> b)
     {
