@@ -13,7 +13,7 @@ public static class Utility
     {
         return  (float)_random.NextDouble();
     }
-    public static float RandomFloat(int minValue, int maxValue)
+    public static float RandomFloat(float minValue, float maxValue)
     {
         var f = (float)_random.NextDouble();
         return Math.Clamp(f, minValue, maxValue);
