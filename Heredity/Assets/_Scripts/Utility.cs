@@ -15,7 +15,6 @@ public static class Utility
     }
     public static float RandomFloat(float minValue, float maxValue)
     {
-        var f = (float)_random.NextDouble();
-        return Math.Clamp(f, minValue, maxValue);
+        return (float)_random.NextDouble() * (maxValue - minValue) + minValue;
     }
 }
